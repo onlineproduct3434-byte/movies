@@ -20,12 +20,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8596200199:AAEabSJ3JyKS43wfXVBYXoVibUF3t5Q
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7718379571').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/bkmoviesrequestgroup") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL'-'1003641108841'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003554759022'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+i9mvJuxUSalkZWY1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003641108841').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://<db_username>:krish@krish.qhhp8b2.mongodb.net/?appName=Krish")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://<db_username>:krish@Krish.qhhp8b2.mongodb.net/?appName=Krish")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Krish")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
