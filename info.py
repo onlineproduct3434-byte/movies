@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '30914942'))
-API_HASH = environ.get('API_HASH', '447559111fb6f9df2abac49fe7fab3d4')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8596200199:AAEabSJ3JyKS43wfXVBYXoVibUF3t5Qa8Fo')
+API_ID = int(environ.get('API_ID', '30865951'))
+API_HASH = environ.get('API_HASH', 'bb3a0507585c4aea83c8b7bf1f31f140')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8567163256:AAFWu-Cpz0wD9H76qEjy4CoJGXevc_m_6y8')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7718379571').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/bkmoviesrequestgroup") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/BkMovies4u") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003554759022'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+i9mvJuxUSalkZWY1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Bkbollywoodmovies')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003641108841').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://<db_username>:krish@Krish.qhhp8b2.mongodb.net/?appName=Krish")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Krish")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://krish:krish@12@krish.fbtucqt.mongodb.net/?appName=krish")
+DATABASE_NAME = environ.get('DATABASE_NAME', "krish")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
